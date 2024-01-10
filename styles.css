@@ -1,5 +1,4 @@
 *{
-    /*border: solid 1px #212121;*/
     padding: 0;
     margin: 0;
 }
@@ -170,4 +169,50 @@ button {
     font-weight: bold;
     text-align: end;
     font-size: 24px;
+}
+
+.main04{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    color: #1F2937;
+    height: 200px;
+}
+
+.main04 .sign-up-container{
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    height: 100px;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main04 .sign-up-container .text-sign-up-container{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 450px;
+    color: #F9FAF8;
+    margin: 0 90px;
+}
+
+.main04 button{
+    border: #fff solid 2px;
+    margin: 0 100px;
+    padding: 0;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 16px;
+    margin: 0;
 }
